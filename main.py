@@ -1,7 +1,3 @@
-def factorial(n):
-    if n == 0: # базовий випадок
-        return 1
-    else:
-        return n * factorial(n-1) # рекурсивний випадок
+from mymodule import say_hello as greeting
 
-print(factorial(7)) # виведе 120
+print(greeting("World"))
